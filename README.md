@@ -1,7 +1,6 @@
 # Amazon_Vine_Analysis
 
 **Overview of anlaysis:**
-
 The purpose of this analysis is to determine if there is a bias towards reviews that were written by the Vine program. I chose to analyze the reviews of Video DVDs and used PySpark to select, filter and calculate the percentages of five star reviews. 
 
 **Results**
@@ -33,3 +32,6 @@ Percentage of Paid 5 star reviews:
 Percentage of Unpaid 5 star reviews:
 
 ![image](https://user-images.githubusercontent.com/96017493/165548061-87646dec-cc37-4853-83ff-7fb002487c55.png)
+
+**Summary:**
+According to the data there is no positivity bias. The paid percentage is just over 18%, where the unpaid percentage is 51.6%. This demonstrates that the majority of 5 star reviews (in total, and based on percentages) came from unpaid reviews. An additional analysis that I would like to do is to analyze 1 star reviews. I would be interested in getting the totals and percentages of 1 star reviews and compare this to our 5 star. I’m curious as to if the paid reviews have a negative bias. 
